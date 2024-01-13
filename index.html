@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="search">
+                <input type="text" placeholder="Input city name">
+                <button><img src="./search.png" alt="search"></button>
+            </div>
+            <div class="cloudc">
+                <div class="cloud"><img src="./rain.png" alt="rain"></div>
+                <div class="temp"><h1>20°C</h1></div>
+                <div class="city"><h1>Bengluru</h1></div>
+            </div>
+            <div class="footer">
+                <div class="humidity">
+                    <div class="humimg">
+                        <img src="./humidity.png" alt="humidity">
+                        <div class="p1">
+                            <p>343</p>
+                        <p id="temptype">humidity</p>
+                        </div>
+                    </div>
+                    <div class="windspeed">
+                        <div class="windimg">
+                            <img src="./wind.png" alt="wind">
+                        </div>
+                        <div class="winddetail">
+                            <p>100 KM/H</p>
+                            <P id="speed">Wind speed</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="wind"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

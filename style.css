@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.main{
+    width: 90%;
+    max-width: 370px;
+    background: linear-gradient(125deg, #06ccf4, #281793);
+    color: #fff;
+    border-radius: 10px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.search input{
+    height: 40px;
+    width: 70%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+
+}
+.search img{
+    height: 20px;
+}
+.content{
+    padding: 20px;
+}
+.search button{
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.cloudc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.humidity{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.humimg{
+    display: flex;
+    gap: 10px;
+}
+.humimg img{
+    height: 40px;
+}
+.windspeed img{
+    height: 40px;
+}
+.windspeed{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
